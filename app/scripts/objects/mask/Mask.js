@@ -25,15 +25,15 @@ export default class Lighthouse extends THREE.Object3D {
         uniforms: {
             mapOne: {
                 type: "t",
-                value: new THREE.TextureLoader().load( './assets/testMap.jpg' )
+                value: new THREE.TextureLoader().load( 'http://robindelaporte.fr/codevember/assets/testMap.jpg' )
             },
             mapTwo: {
               type: "t",
-              value: new THREE.TextureLoader().load( './assets/testMap2.jpg' )
+              value: new THREE.TextureLoader().load( 'http://robindelaporte.fr/codevember/assets/testMap2.jpg' )
             },
             map: {
               type: "t",
-              value: new THREE.TextureLoader().load('./assets/weird.jpg')
+              value: new THREE.TextureLoader().load('http://robindelaporte.fr/codevember/assets/weird.jpg')
             },
             speed: {
               type: "f",
@@ -66,15 +66,15 @@ export default class Lighthouse extends THREE.Object3D {
     this.materialThing.uniforms.needsUpdate = true;
 
     this.textures = {
-      dot : new THREE.TextureLoader().load('./assets/dot.jpg'),
-      heightMap : new THREE.TextureLoader().load('./assets/heightMap.png'),
-      smoke : new THREE.TextureLoader().load('./assets/smoke.jpg'),
-      line : new THREE.TextureLoader().load('./assets/line.jpg'),
-      noise : new THREE.TextureLoader().load('./assets/noise.gif'),
-      weird : new THREE.TextureLoader().load('./assets/weird.jpg'),
-      circle : new THREE.TextureLoader().load('./assets/circle.jpg'),
-      ramen : new THREE.TextureLoader().load('./assets/ramen.jpg'),
-      thing : new THREE.TextureLoader().load('./assets/thing.jpg')
+      dot : new THREE.TextureLoader().load('http://robindelaporte.fr/codevember/assets/dot.jpg'),
+      heightMap : new THREE.TextureLoader().load('http://robindelaporte.fr/codevember/assets/heightMap.png'),
+      smoke : new THREE.TextureLoader().load('http://robindelaporte.fr/codevember/assets/smoke.jpg'),
+      line : new THREE.TextureLoader().load('http://robindelaporte.fr/codevember/assets/line.jpg'),
+      noise : new THREE.TextureLoader().load('http://robindelaporte.fr/codevember/assets/noise.gif'),
+      weird : new THREE.TextureLoader().load('http://robindelaporte.fr/codevember/assets/weird.jpg'),
+      circle : new THREE.TextureLoader().load('http://robindelaporte.fr/codevember/assets/circle.jpg'),
+      ramen : new THREE.TextureLoader().load('http://robindelaporte.fr/codevember/assets/ramen.jpg'),
+      thing : new THREE.TextureLoader().load('http://robindelaporte.fr/codevember/assets/thing.jpg')
     }
   }
 

@@ -55,10 +55,10 @@ export default class WebGL {
     if (window.DEBUG || window.DEVMODE) this.initGUI();
 
     this.night = false;
-    document.querySelector('.toggle').addEventListener("click", () => {
-      this.night = !this.night;
-      this.switchMode();
-    })
+    // document.querySelector('.toggle').addEventListener("click", () => {
+    //   this.night = !this.night;
+    //   this.switchMode();
+    // })
   }
 
   initPostprocessing() {
